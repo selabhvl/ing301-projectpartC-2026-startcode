@@ -22,7 +22,13 @@ Start-koden for prosjektet er organisert på tilsvarende måte som de tidligere 
 
 ```
 .
-├── README.md              
+├── README.md    
+├── clients
+   ├── __init__.py
+│  ├── actuatorclient.py  <-- nytt: her skal lyspære-klienten implementeres
+│  ├── app.py             <-- nytt: her skal bruker-klienten implementeres
+   ├── common.py          <-- nytt: her er klasse for utveksling a målinger/tilstander implementert
+│  └── sensorclient.py    <-- nytt: her skal temperaturmåler-klienten implementeres        
 ├── smarthouse
 │  ├── __init__.py
 │  ├── api.py           <-- nytt: her skal REST API (sky-tjenesten) for smarthuset implementeres
@@ -193,9 +199,9 @@ Der skal implementeres endepunkter for tilgang til sensor-ressurser:
 - `GET smarthouse/sensor/{uuid}` - information for a given sensor identfied by `uuid`
 - `GET smarthouse/sensor/{uuid}/current` - get current sensor measurement for sensor `uuid`
 - `PUT smarthouse/sensor/{uuid}/current` - update measurement for sensor `uuid`
-- `DELETE smarthouse/sensor/{uuid}/oldest` - delete current measurements for sensor `uuid`
+- `DELETE smarthouse/sensor/{uuid}/current` - delete current measurements for sensor `uuid`
 
-Detrskal implementeres endepunkter for tilgang til aktuator-ressurser:
+Der skal implementeres endepunkter for tilgang til aktuator-ressurser:
 
 - `GET smarthouse/actuator/{uuid}/state` - get current state for actuator `uuid`
 - `PUT smarthouse/actuator/{uuid}/state` - update current state for actuator `uuid`
