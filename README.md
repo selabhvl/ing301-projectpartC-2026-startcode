@@ -13,7 +13,7 @@ Klient-applikasjonen skal basere seg på [requests-biblioteket](https://pypi.org
 
 Figuren nedenfor viser illustrerer den nettverksapplikasjon som dere skal ende opp med.
 
-![Alt Text](https://github.com/selabhvl/ing301-projectpartC-2026-startcode/blob/main/SmarthouseC.png)
+![](SmarthouseC.png)
 
 
 ### Oppgave 1: Hente start-koden
