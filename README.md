@@ -11,7 +11,7 @@ Samlet betyr det at en en bruker via sky-tjenesten kan få informasjon om temper
 
 Klient-applikasjonen skal basere seg på [requests-biblioteket](https://pypi.org/project/requests/) for å implementere bruk av REST API'et.
 
-Figur nedenfor viser illustrerer den nettverksapplikasjon som dere skal ende opp med.
+Figuren nedenfor viser illustrerer den nettverksapplikasjon som dere skal ende opp med.
 
 ![Alt Text](https://github.com/selabhvl/ing301-projectpartC-2026-startcode/blob/main/SmarthouseC.png)
 
