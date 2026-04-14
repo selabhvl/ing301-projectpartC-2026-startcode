@@ -11,6 +11,11 @@ Samlet betyr det at en en bruker via sky-tjenesten kan få informasjon om temper
 
 Klient-applikasjonen skal basere seg på [requests-biblioteket](https://pypi.org/project/requests/) for å implementere bruk av REST API'et.
 
+Figur nedenfor viser illustrerer den nettverksapplikasjon som dere skal ende opp med.
+
+![Alt Text](SmartHouseC.png)
+
+
 ### Oppgave 1: Hente start-koden
 
 Start-koden for prosjektet er organisert på tilsvarende måte som de tidligere deler av prosjektet og inneholder løsningsforslaget fra del A. 
